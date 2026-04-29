@@ -3,5 +3,5 @@ title: My Site
 defaults:
   - scope:
       path: ""
-      values:
+    values:
       layout: default
