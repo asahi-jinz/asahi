@@ -6,7 +6,7 @@ html{
   font-style: normal;
 }
 
-body{
+.contents{
   /* margin:0px!important; */
   width:90%;
   margin:auto;
