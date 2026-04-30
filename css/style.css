@@ -37,26 +37,22 @@ header ul li a{
 
 /* ----------トップ---------- */
 
-.full {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 95vh;
-  margin: 0;
-  text-decoration: none;
+@keyframes zoomUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.15);
+  }
 }
-.full div.img01 {
-  background-image: url(/img/slider-demo.png);
+.swiper-slide-active .swiper-img,
+.swiper-slide-duplicate-active .swiper-img,
+.swiper-slide-prev .swiper-img {
+  animation: zoomUp 12s linear 0s normal both;
 }
-.full div.img02 {
-  background-image: url(/img/slider-demo.png);
-}
-.full div.img03 {
-  background-image: url(/img/slider-demo.png);
-}
-.full .slick-dots {
-  bottom: 4%;
-  z-index: +1;
+.swiper-slide img {
+  height: auto;
+  width: 100%;
 }
 
 /*=============
