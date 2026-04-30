@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
 html{
-  font-family: "BIZ UDMincho", serif;
+  font-family: "Zen Old Mincho", serif;
   font-weight: 400;
   font-style: normal;
+}
+
 }
 body{
   margin:0px!important;
