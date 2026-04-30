@@ -38,3 +38,19 @@ header ul li a{
 .fastview img{
   width:100%;
 }
+
+/* ----------レスポンシブ---------- */
+/*1023px以下*/
+@media screen and (max-width: 1023px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*834px以下*/
+@media screen and (max-width: 834px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*480px以下*/
+@media screen and (max-width: 480px){
+  /*必要ならばここにコードを書く*/
+}
