@@ -37,7 +37,7 @@ header ul li a{
 
 /* ----------トップ---------- */
 
-.full a {
+.full div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -45,13 +45,13 @@ header ul li a{
   margin: 0;
   text-decoration: none;
 }
-.full a.img01 {
+.full div.img01 {
   background-image: url(/img/slider-demo.png);
 }
-.full a.img02 {
+.full div.img02 {
   background-image: url(/img/slider-demo.png);
 }
-.full a.img03 {
+.full div.img03 {
   background-image: url(/img/slider-demo.png);
 }
 .full .slick-dots {
