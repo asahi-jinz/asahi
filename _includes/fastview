@@ -1,0 +1,20 @@
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="swiper-img">
+        <img src="{{ '/img/slider-demo.png' | relative_url }}" alt="slider-image">
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="swiper-img">
+       <img src="{{ '/img/slider-demo.png' | relative_url }}" alt="slider-image">
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="swiper-img">
+        <img src="{{ '/img/slider-demo.png' | relative_url }}" alt="slider-image">
+      </div>
+    </div>
+  </div>
+
+</div>
