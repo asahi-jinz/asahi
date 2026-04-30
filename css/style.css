@@ -5,9 +5,11 @@ html{
   font-weight: 400;
   font-style: normal;
 }
+body{
+  margin:0px!important;
+}
 
 .contents{
-  /* margin:0px!important; */
   width:90%;
   margin:auto;
 }
