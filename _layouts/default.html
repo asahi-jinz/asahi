@@ -38,6 +38,10 @@
 {% include header.html %}
 </header>
 
+{% if page.url == "/" or page.url == "/index.html" %}
+  <p>トップページ専用の表示</p>
+{% endif %}
+
   <div class="contents">
     {{ content }}
   </div>
