@@ -6,9 +6,10 @@ html{
   font-style: normal;
 }
 
-
 body{
-  margin:0px!important;
+  /* margin:0px!important; */
+  width:90%;
+  margin:auto;
 }
 
 header{
