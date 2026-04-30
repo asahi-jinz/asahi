@@ -39,7 +39,9 @@
 </header>
 
 {% if page.url == "/" or page.url == "/index.html" %}
-  <p>トップページ専用の表示</p>
+  <div class="fastview">
+    <img src="{{ '/img/slider-demo.png' | relative_url }}" alt="demo">
+  </div>
 {% endif %}
 
   <div class="contents">
