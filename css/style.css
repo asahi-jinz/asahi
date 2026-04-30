@@ -11,13 +11,15 @@ header{
 }
 header ul{
   display:flex;
+  justify-content: flex-end;
+  margin:10px;
 }
 header ul li {
   text-decoration:none;
   text-align:right;
 }
 header ul li a{
-  padding:5px;
+  padding:10px;
   color:#fff;
 }
 
