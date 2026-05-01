@@ -55,7 +55,7 @@ header {
   z-index:99;
 }
 header.transform {
-  background-color: rgba(133, 76, 117,.9);
+  background-color: #854C75;
   padding: 10px 0;
 }
 header ul{
