@@ -48,6 +48,9 @@ header ul li a{
     transform: scale(1.15);
   }
 }
+.swiper{
+  height: 90vh;
+}
 .swiper-slide-active .swiper-img,
 .swiper-slide-duplicate-active .swiper-img,
 .swiper-slide-prev .swiper-img {
