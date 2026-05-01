@@ -108,6 +108,7 @@ header ul li a{
 .SliderText p{
   color:#fff;
   font-size:10em;
+  z-index:10;
 }
 
 
