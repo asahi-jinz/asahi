@@ -7,7 +7,7 @@ const swiper = new Swiper(".swiper", {
     delay: 4000,
     disableOnInteraction: false,
   },
-  speed: 3000,
+  speed: 2500,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
