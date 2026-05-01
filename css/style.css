@@ -86,6 +86,7 @@ header ul li a{
 }
 .swiper{
   height: 95vh;
+position:reletive;  
 }
 .swiper-slide-active .swiper-img,
 .swiper-slide-duplicate-active .swiper-img,
@@ -97,18 +98,15 @@ header ul li a{
   width: 100%;
 }
 
-.fv{
-  position:reletive;
-}
 .SliderText{
   position:absolute;
   bottom:0;
   left:0;
+  z-index:10;
 }
 .SliderText p{
   color:#fff;
-  font-size:10em;
-  z-index:10;
+  font-size:5em;
 }
 
 
