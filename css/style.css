@@ -29,7 +29,7 @@ header ul{
   margin:10px;
 }
 header ul li {
-  text-decoration:none;
+  list-style:none;
   text-align:right;
 }
 header ul li a{
