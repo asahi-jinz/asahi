@@ -35,7 +35,9 @@ padding:25px;
     height: 100%;
     z-index: -1;
     margin: 0 calc(50% - 50vw);
-    background: #f3fce8;
+}
+.section1,.section5{
+  background:#854C75;
 }
 
 .contents{
