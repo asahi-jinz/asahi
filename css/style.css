@@ -54,12 +54,12 @@ padding:25px;
 }
 .section2:after{
     position: absolute;
-    content: 'ＣＯＭＰＡＮＹ';
+    content: 'COMPANY';
     top: 0;
     left: 0;
     z-index: 1;
   color:#854C75;
-  font-size:5em;
+  font-size:3em;
     /* margin: 0 calc(50% - 50vw); */
 }
 
