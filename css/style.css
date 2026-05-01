@@ -36,7 +36,8 @@ padding:25px;
     z-index: -1;
     margin: 0 calc(50% - 50vw);
 }
-.section1,.section5{
+.section1:before,
+.section5:before{
   background:#854C75;
 }
 
