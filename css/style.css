@@ -40,7 +40,9 @@ padding:25px;
 .section5:before{
   background:#854C75;
 }
-
+.section:3:before{
+  background:url(/img/sct.jpg);
+}
 .contents{
   width:90%;
   margin:auto;
