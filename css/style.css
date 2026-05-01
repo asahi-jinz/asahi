@@ -44,7 +44,7 @@ padding:25px;
 }
 
 /* ----------ヘッダー---------- */
-.header {
+header {
   display: flex;
   justify-content: center;
   padding: 20px 0;
@@ -52,7 +52,7 @@ padding:25px;
   transition: padding .5s, background-color .5s;
   width: 100%;
 }
-.header.transform {
+header.transform {
   background-color: rgba(204,255,255,.9);
   padding: 10px 0;
 }
