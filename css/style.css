@@ -104,6 +104,8 @@ header ul li a{
   position:absolute;
   bottom:0;
   left:0;
+}
+.SliderText p{
   color:#fff;
   font-size:10em;
 }
