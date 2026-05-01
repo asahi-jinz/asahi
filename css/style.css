@@ -41,7 +41,7 @@ padding:25px;
   background:#854C75;
 }
 .section:3:before{
-  background:url(/img/sct.jpg);
+   background: url("/img/sct.jpg") no-repeat center / cover;
 }
 .contents{
   width:90%;
