@@ -97,6 +97,13 @@ header ul li a{
   width: 100%;
 }
 
+.fv{
+  position:reletive;
+}
+.SliderText{
+  position:absolute;
+}
+
 
 /* ----------レスポンシブ---------- */
 @media screen and (max-width: 1023px){
