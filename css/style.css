@@ -86,7 +86,7 @@ header ul li a{
 }
 .swiper{
   height: 95vh;
-position:reletive;  
+position:relative;  
 }
 .swiper-slide-active .swiper-img,
 .swiper-slide-duplicate-active .swiper-img,
