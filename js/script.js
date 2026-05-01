@@ -2,13 +2,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 const swiper = new Swiper(".swiper", {
   loop: true,
-  effect: "fade", // フェード切り替え
-  // 自動再生
+  effect: "fade",
   autoplay: {
-    delay: 4000, // 4秒後に次のスライドへ
-    disableOnInteraction: false, // ユーザーが操作しても自動再生を継続
+    delay: 4000,
+    disableOnInteraction: false,
   },
-  speed: 2000, // 2秒かけてフェード
+  speed: 3000,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
