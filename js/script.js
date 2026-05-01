@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', function () {
+
 const swiper = new Swiper(".swiper", {
   loop: true,
   effect: "fade", // フェード切り替え
@@ -12,3 +14,6 @@ const swiper = new Swiper(".swiper", {
     clickable: true,
   },
 });
+
+});
+
