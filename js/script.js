@@ -17,3 +17,13 @@ const swiper = new Swiper(".swiper", {
 
 });
 
+$(function () {
+  $(window).on("scroll", function () {
+    mvHeight = $(".fv").height();
+    if ($(window).scrollTop() > mvHeight) {
+      $(".navi").addClass("transform");
+    } else {
+      $(".navi").removeClass("transform");
+    }
+  });
+});
