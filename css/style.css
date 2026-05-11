@@ -49,7 +49,7 @@ padding:25px;
 }
 .section1:before,
 .section5:before{
-  background:#854C75;
+  /* background:#854C75; */
 }
 .section2:before{
   background:#fff;
@@ -80,7 +80,7 @@ padding:25px;
     top: -10px;
     left: 0;
   transform: skewY(-8deg);
-  border:5px dashed #FFE44D;
+  border:3px dashed #FFE44D;
   width:100%;
 }
 
