@@ -55,14 +55,7 @@ padding:25px;
   background:#fff;
   transform: skewY(-8deg);
 }
-.section2:after{
-    position: absolute;
-    content: '';
-    top: -10px;
-    left: 0;
-  transform: skewY(-8deg);
-  border:10px dotted #FFE44D;
-}
+
 .section3:before{
   
 }
@@ -80,6 +73,15 @@ padding:25px;
 .section2:after{
     content: 'COMPANY';
     /* margin: 0 calc(50% - 50vw); */
+}
+.section2:after{
+    position: absolute;
+    content: '';
+    top: -10px;
+    left: 0;
+  transform: skewY(-8deg);
+  border:5px dashed #FFE44D;
+  width:100%;
 }
 
 .contents{
