@@ -20,7 +20,11 @@ html{
 body{
   margin:0px!important;
   overflow-x: hidden;
- background: url(/img/bg.jpg) no-repeat center / cover;
+  background: url(/img/bg.jpg) no-repeat center / cover;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+
 }
 
 .section{
