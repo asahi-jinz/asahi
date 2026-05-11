@@ -55,6 +55,14 @@ padding:25px;
   background:#fff;
   transform: skewY(-8deg);
 }
+.section2:after{
+    position: absolute;
+    content: '';
+    top: -10px;
+    left: 0;
+  transform: skewY(-8deg);
+  border:10px dotted #FFE44D;
+}
 .section3:before{
   
 }
@@ -125,6 +133,7 @@ header ul li a{
 position:relative;
   /* border:solid 10px #854C75;*/
   margin:10px;
+  margin-top:30px;
 }
 .swiper-slide-active .swiper-img,
 .swiper-slide-duplicate-active .swiper-img,
