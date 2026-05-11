@@ -56,7 +56,7 @@ padding:25px;
   transform: skewY(-8deg);
 }
 .section3:before{
-   background: url('../img/sct.jpg') no-repeat center / cover;
+  
 }
 
 .section:after{
