@@ -123,7 +123,8 @@ header ul li a{
 .swiper{
   height: 95vh;
 position:relative;
-  border:solid 10px #854C75;
+  /* border:solid 10px #854C75;*/
+  margin:10px;
 }
 .swiper-slide-active .swiper-img,
 .swiper-slide-duplicate-active .swiper-img,
