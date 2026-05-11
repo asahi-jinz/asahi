@@ -20,13 +20,17 @@ html{
 body{
   margin:0px!important;
   overflow-x: hidden;
+}
+
+.bg{
+  position: fixed;
+  inset: 0;
+  
   background: url(/img/bg.jpg) no-repeat center / cover;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;   
-
-}
+  background-size: cover;
+  }
 
 .section{
 position :relative;
