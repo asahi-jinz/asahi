@@ -75,13 +75,13 @@ padding:25px;
     /* margin: 0 calc(50% - 50vw); */
 }
 .section2:after{
-    position: absolute;
-    content: '';
-    top: -10px;
-    left: 0;
+  position: absolute;
+  content: '';
+  top: -20px;
+  left: -25%;
   transform: skewY(-8deg);
   border:3px dashed #FFE44D;
-  width:100%;
+  width:150%;
 }
 
 .contents{
