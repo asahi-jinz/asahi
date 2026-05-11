@@ -51,6 +51,10 @@ padding:25px;
 .section5:before{
   background:#854C75;
 }
+.section2:before{
+  background:#fff;
+  transform: skewY(-8deg);
+}
 .section3:before{
    background: url('../img/sct.jpg') no-repeat center / cover;
 }
