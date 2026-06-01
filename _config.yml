@@ -1,0 +1,7 @@
+title: My Site
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
