@@ -70,7 +70,7 @@
     <script src="{{ '../js/script.js' | relative_url }}"></script>
   </head>
 
-  <body>
+  <body class="policy-page">
     <div class="loading">
       <div class="loadingInr">
         <img src="../img/asahi-logo.png" alt="アサヒ株式会社" />
@@ -81,8 +81,6 @@
     {% include header.html %}
 
     <div id="">
-      {% include fastview.html %}
-
       <div class="contents">{{ content }}</div>
 
       {% include footer.html %}

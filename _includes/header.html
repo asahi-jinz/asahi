@@ -1,10 +1,30 @@
-  <header class="navi">
-    <ul>
-      <li><a href="#top">トップ</a></li>
-      <li><a href="#company">会社情報</a></li>
-      <li><a href="#works">仕事内容</a></li>
-      <li><a href="#about">工場について</a></li>
-      <li><a href="#access">アクセス</a></li>
-      <li><a href="#recruit">求人情報</a></li>
-    </ul>
-  </header>
+<header class="navi">
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <ul class="menu">
+    <li>
+      <a href="/index.html" class="logo-link">
+        <img src="../img/asahilogo_w.png" alt="アサヒ株式会社" />
+      </a>
+    </li>
+    {% if page.special_header %}
+    <li><a href="/index.html#top">トップ</a></li>
+    <li><a href="/index.html#works">仕事内容</a></li>
+    <li><a href="/index.html#flow">縫製の流れ</a></li>
+    <li><a href="/index.html#company">会社情報</a></li>
+    <li><a href="/index.html#recruit">求人情報</a></li>
+    <li><a href="/index.html#access">アクセス</a></li>
+    {% else %}
+    <li><a href="#top">トップ</a></li>
+    <li><a href="#works">仕事内容</a></li>
+    <li><a href="#flow">縫製の流れ</a></li>
+    <li><a href="#company">会社情報</a></li>
+    <li><a href="#recruit">求人情報</a></li>
+    <li><a href="#access">アクセス</a></li>
+    {% endif %}
+  </ul>
+</header>
