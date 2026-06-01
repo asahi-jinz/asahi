@@ -151,7 +151,7 @@ h3::before {
   position: fixed;
   inset: 0;
   z-index: -3;
-  background-image: url("/img/bg_stitch.png");
+  background-image: url("../img/bg_stitch.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -188,7 +188,7 @@ h3::before {
 }
 
 .section2:before {
-  background: url("/img/fv-01.jpg") no-repeat center / cover;
+  background: url("../img/fv-01.jpg") no-repeat center / cover;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -590,7 +590,7 @@ footer .footermenu li a:hover {
 .fv-bg {
   position: absolute;
   inset: 0;
-  background-image: url("/img/fv-02.jpg");
+  background-image: url("../img/fv-02.jpg");
   background-size: cover;
   background-position: center;
   will-change: transform;
@@ -763,7 +763,7 @@ footer .footermenu li a:hover {
     position: relative;
   }
   .column-left::before {
-    background: url("/img/cl-bg.jpg") no-repeat center / cover;
+    background: url("../img/cl-bg.jpg") no-repeat center / cover;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
