@@ -69,6 +69,8 @@ h2 {
 
 .section h3 {
   text-align: center;
+  border: #14151c 2px solid;
+  padding: 5px;
 }
 h3::before {
   content: "";
@@ -76,6 +78,10 @@ h3::before {
   width: 100%;
   font-size: 0.85em;
   font-weight: 300;
+}
+
+.section2 h3 {
+  border-color: #fff;
 }
 
 .section2 h3::before {
@@ -299,7 +305,7 @@ h3::before {
 .linkbtn a,
 .linkbtn-a {
   border: #14151c 2px solid;
-  background: #fff;
+  background: #14151c;
   border-radius: 100px;
   position: relative;
   display: flex;
@@ -309,7 +315,7 @@ h3::before {
   max-width: 250px;
   padding: 10px 25px;
   text-decoration: none;
-  color: #14151c;
+  color: #fff;
   line-height: 1.8;
   transition: 0.3s ease-in-out;
   font-weight: 500;
@@ -333,20 +339,12 @@ h3::before {
   transform: translateY(-50%) rotate(45deg);
 }
 .linkbtn a:hover {
-  background: #14151c;
-  color: #fff;
+  background: #fff;
+  color: #14151c;
 }
 .linkbtn a:hover:after,
 .linkbtn-a:hover:after {
   right: 1.4rem;
-}
-.linkbtn-a {
-  background: #14151c;
-  color: #fff;
-}
-.linkbtn-a:hover {
-  background: #fff;
-  color: #14151c;
 }
 
 /* ----------カラム---------- */
