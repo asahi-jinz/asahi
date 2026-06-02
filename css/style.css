@@ -81,7 +81,7 @@ h3::before {
 }
 
 .section2 h3 {
-  border-color: #fff;
+  border:none;
 }
 
 .section2 h3::before {
