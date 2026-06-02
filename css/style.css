@@ -74,18 +74,33 @@ h3::before {
   content: "";
   display: block;
   width: 100%;
-  font-size: 0.9em;
+  font-size: 0.85em;
   font-weight: 300;
 }
+
 .section2 h3::before {
   content: "Sewing of denim products.";
 }
-.section2 h3:nth-of-type(2)::before {
+.section2 .un-fade:nth-of-type(2) h3::before {
   content: "High-quality manufacturing.";
 }
-.section2 h3:nth-of-type(3)::before {
+.section2 .un-fade:nth-of-type(3) h3::before {
   content: "Preserving and passing down manufacturing expertise as a domestic factory.";
 }
+
+/* .recruit h3::before {
+  content: "Seeking Sewing Operators.";
+}
+.recruit .un-fade:nth-of-type(2) h3::before {
+  content: "Click here for detailed job information.";
+}
+
+.section5 h3::before {
+  content: "Visitor Guide & Routes";
+}
+.section5 h3:nth-of-type(2)::before {
+  content: "You’ll see a white sign along the road as you get closer to our office.";
+} */
 
 .section h1:before,
 .section h2:before {
@@ -135,9 +150,9 @@ h3::before {
   /* border-bottom: 1px dashed #fff; */
   padding-bottom: 10px;
 }
-.recruit h3 {
+/* .recruit h3 {
   border-bottom: 1px dashed #14151c;
-}
+} */
 
 .textbox-center p {
   width: 80%;
@@ -156,7 +171,7 @@ h3::before {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  opacity: 0.5;
+  opacity: 0.25;
 }
 
 /* ----------各セクション設定・背景---------- */
@@ -185,6 +200,9 @@ h3::before {
   display: block;
   text-align: center;
   padding-top: 20px;
+}
+.section2 .un-fade:last-child p::after {
+  content: "";
 }
 
 .section2:before {
@@ -249,6 +267,7 @@ h3::before {
   display: flex;
   width: 100%;
   align-items: center;
+  justify-content: center;
 }
 .accessBox div {
   width: 33%;
@@ -263,7 +282,7 @@ h3::before {
 }
 .accessBox div p span {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 /* ----------ボタン---------- */
@@ -965,13 +984,17 @@ footer .footermenu li a:hover {
     font-size: 1em;
   }
 
+  .section h1:before {
+    font-size: 1em;
+  }
+
   .com-info th,
   .com-info td {
     display: block;
     width: 100%;
   }
   .com-info th {
-    border-bottom: #854c75 dashed 2px;
+    border-bottom: none;
   }
 
   .menu li {
