@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "ここにタイトルを入力"
 date: YYYY-MM-DD
 ---
