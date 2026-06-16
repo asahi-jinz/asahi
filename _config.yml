@@ -6,5 +6,8 @@ defaults:
     values:
       layout: default
 
+url: "https://asahi-jinz.github.io"
+baseurl: "/asahi"
+
 plugins:
   - jekyll-sitemap
