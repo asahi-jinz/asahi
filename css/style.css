@@ -312,7 +312,8 @@ h3::before {
   justify-content: space-around;
   align-items: center;
   margin: auto;
-  max-width: 250px;
+  /* max-width: 250px;*/
+  max-width: 450px;
   padding: 10px 25px;
   text-decoration: none;
   color: #fff;
