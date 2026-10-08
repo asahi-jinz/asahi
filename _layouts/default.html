@@ -2,13 +2,11 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-
-        <meta http-equiv="refresh" content="0; url=https://asahi-jinz.github.io/">
+    <meta http-equiv="refresh" content="0; url=https://asahi-jinz.github.io/">
 <script>
   window.location.replace("https://asahi-jinz.github.io/");
 </script>
 
-  
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta
@@ -42,19 +40,11 @@
       href="https://fonts.googleapis.com/css2?family=Shippori+Antique&family=Zen+Kaku+Gothic+New&display=swap"
       rel="stylesheet"
     />
+  
     <title>アサヒ株式会社 | 宮城県登米市の縫製会社</title>
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
     <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
     <script src="{{ '/js/jquery-4.0.0.min.js' | relative_url }}"></script>
-    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
     <script src="{{ '/js/script.js' | relative_url }}"></script>
   </head>
 
@@ -69,9 +59,9 @@
     {% include header.html %}
 
     <div id="">
-      {% include fastview.html %}
+    {% include fastview.html %}
 
-      <div class="contents">{{ content }}</div>
+    <div class="contents">{{ content }}</div>
 
       {% include footer.html %}
     </div>
